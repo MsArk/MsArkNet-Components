@@ -1,0 +1,29 @@
+.p-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--primary-color);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  user-select: none;
+
+  &-rounded {
+    border-radius: 1rem;
+  }
+
+  &-icon {
+    &-left {
+      margin-right: 0.5rem;
+    }
+
+    &-right {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &-unstyled {
+    all: unset !important;
+  }
+}

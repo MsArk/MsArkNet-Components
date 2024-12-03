@@ -1,0 +1,147 @@
+// variables.scss
+
+$transparent: transparent;
+$white: #ffffff;
+$black: #000000;
+$dark-mode: hsl(219, 30%, 12%);
+
+/* Paleta de colores base */
+$primary: #0a2e5c;
+$primary-light: #13407a;
+$primary-dark: #082245;
+
+$secondary: #1b75bc;
+$secondary-light: #3a90d1;
+$secondary-dark: #155e95;
+
+$success: #008a39;
+$success-light: #00a94d;
+$success-dark: #006d28;
+
+$warning: #f39c12;
+$warning-light: #f5a623;
+$warning-dark: #c27d0a;
+
+$info: #62b5e5;
+$info-light: #80c2f0;
+$info-dark: #4a97c4;
+
+$danger: #e74c3c;
+$danger-light: #f0675e;
+$danger-dark: #b12b24;
+
+$contrast: #343a40;
+$contrast-light: #4f5965;
+$contrast-dark: #23272c;
+
+/* Variables globales para el tema claro */
+.theme-light {
+  --background-body: #{$transparent};
+  --text-color: #{$white};
+  --background-color: #{$white};
+
+  /* Primary */
+  --primary-color: #{$primary-light};
+  --primary-hover: #{$primary};
+  --primary-active: #{$primary-dark};
+  --primary-focus: #{$primary-light};
+  --primary-visited: #{$primary};
+
+  /* Secondary */
+  --secondary-color: #{$secondary-light};
+  --secondary-hover: #{$secondary};
+  --secondary-active: #{$secondary-dark};
+  --secondary-focus: #{$secondary-light};
+  --secondary-visited: #{$secondary};
+
+  /* Success */
+  --success-color: #{$success-light};
+  --success-hover: #{$success};
+  --success-active: #{$success-dark};
+  --success-focus: #{$success-light};
+  --success-visited: #{$success};
+
+  /* Warning */
+  --warning-color: #{$warning-light};
+  --warning-hover: #{$warning};
+  --warning-active: #{$warning-dark};
+  --warning-focus: #{$warning-light};
+  --warning-visited: #{$warning};
+
+  /* Info */
+  --info-color: #{$info-light};
+  --info-hover: #{$info};
+  --info-active: #{$info-dark};
+  --info-focus: #{$info-light};
+  --info-visited: #{$info};
+
+  /* Danger */
+  --danger-color: #{$danger-light};
+  --danger-hover: #{$danger};
+  --danger-active: #{$danger-dark};
+  --danger-focus: #{$danger-light};
+  --danger-visited: #{$danger};
+
+  /* Contrast */
+  --contrast-color: #{$contrast-light};
+  --contrast-hover: #{$contrast};
+  --contrast-active: #{$contrast-dark};
+  --contrast-focus: #{$contrast-light};
+  --contrast-visited: #{$contrast};
+}
+
+/* Variables globales para el tema oscuro */
+.theme-dark {
+  --background-body: #{$dark-mode};
+  --text-color: #{$white};
+  --background-color: #{$black};
+
+  /* Primary */
+  --primary-color: #{ $primary-dark };
+  --primary-hover: #{ $primary };
+  --primary-active: #{ $primary-light };
+  --primary-focus: #{ $primary-dark };
+  --primary-visited: #{ $primary };
+
+  /* Secondary */
+  --secondary-color: #{ $secondary-dark };
+  --secondary-hover: #{ $secondary };
+  --secondary-active: #{ $secondary-light };
+  --secondary-focus: #{ $secondary-dark };
+  --secondary-visited: #{ $secondary };
+
+  /* Success */
+  --success-color: #{ $success-dark };
+  --success-hover: #{ $success };
+  --success-active: #{ $success-light };
+  --success-focus: #{ $success-dark };
+  --success-visited: #{ $success };
+
+  /* Warning */
+  --warning-color: #{ $warning-dark };
+  --warning-hover: #{ $warning };
+  --warning-active: #{ $warning-light };
+  --warning-focus: #{ $warning-dark };
+  --warning-visited: #{ $warning };
+
+  /* Info */
+  --info-color: #{ $info-dark };
+  --info-hover: #{ $info };
+  --info-active: #{ $info-light };
+  --info-focus: #{ $info-dark };
+  --info-visited: #{ $info };
+
+  /* Danger */
+  --danger-color: #{ $danger-dark };
+  --danger-hover: #{ $danger };
+  --danger-active: #{ $danger-light };
+  --danger-focus: #{ $danger-dark };
+  --danger-visited: #{ $danger };
+
+  /* Contrast */
+  --contrast-color: #{ $contrast-dark };
+  --contrast-hover: #{ $contrast };
+  --contrast-active: #{ $contrast-light };
+  --contrast-focus: #{ $contrast-dark };
+  --contrast-visited: #{ $contrast };
+}

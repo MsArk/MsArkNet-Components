@@ -1,0 +1,165 @@
+// status.scss
+
+.primary {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: inherit;
+
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+
+  &:active {
+    background-color: var(--primary-active);
+  }
+
+  &:focus {
+    outline: 2px solid var(--primary-focus);
+    outline-offset: 2px;
+  }
+
+  &:visited {
+    background-color: var(--primary-visited);
+  }
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: inherit;
+
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+
+  &:active {
+    background-color: var(--primary-active);
+  }
+
+  &:focus {
+    background-color: var(--primary-focus);
+  }
+
+  &:visited {
+    background-color: var(--primary-visited);
+  }
+}
+
+.success {
+  background-color: var(--success-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: inherit;
+
+  &:hover {
+    background-color: var(--success-hover);
+  }
+
+  &:active {
+    background-color: var(--success-active);
+  }
+
+  &:focus {
+    outline: 2px solid var(--success-focus);
+    outline-offset: 2px;
+  }
+
+  &:visited {
+    background-color: var(--success-visited);
+  }
+}
+
+.warning {
+  background-color: var(--warning-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: inherit;
+
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+
+  &:active {
+    background-color: var(--primary-active);
+  }
+
+  &:focus {
+    background-color: var(--primary-focus);
+  }
+
+  &:visited {
+    background-color: var(--primary-visited);
+  }
+}
+
+.info {
+  background-color: var(--info-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: inherit;
+
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+
+  &:active {
+    background-color: var(--primary-active);
+  }
+
+  &:focus {
+    background-color: var(--primary-focus);
+  }
+
+  &:visited {
+    background-color: var(--primary-visited);
+  }
+}
+
+.danger {
+  background-color: var(--danger-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: inherit;
+
+  &:hover {
+    background-color: var(--danger-hover);
+  }
+
+  &:active {
+    background-color: var(--danger-active);
+  }
+
+  &:focus {
+    outline: 2px solid var(--danger-focus);
+    outline-offset: 2px;
+  }
+
+  &:visited {
+    background-color: var(--danger-visited);
+  }
+}
+
+.contrast {
+  background-color: var(--contrast-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: inherit;
+
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+
+  &:active {
+    background-color: var(--primary-active);
+  }
+
+  &:focus {
+    background-color: var(--primary-focus);
+  }
+
+  &:visited {
+    background-color: var(--primary-visited);
+  }
+}

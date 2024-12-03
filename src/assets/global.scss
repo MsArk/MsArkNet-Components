@@ -1,0 +1,18 @@
+// global.scss
+
+@use './variables' as variables;
+@use './animation';
+@use './rotate';
+@use './status';
+
+/* Estilos globales */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-body);
+  color: var(--text-color);
+  font-family: var(--font-family, 'Arial', sans-serif);
+  font-size: var(--font-size-base, 16px);
+  line-height: var(--line-height, 1.5);
+  transition: background-color 0.3s, color 0.3s;
+}

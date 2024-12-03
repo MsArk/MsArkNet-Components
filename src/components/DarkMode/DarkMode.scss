@@ -1,0 +1,27 @@
+@use '../../assets/global.scss';
+
+.dark-light {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--header-bg-color, #323a4b);
+  box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 50%;
+  z-index: 3;
+
+  label {
+    display: flex;
+  }
+
+  svg {
+    width: 28px;
+    fill: transparent;
+    transition: 0.5s;
+  }
+}
+
+.theme-dark .dark-light svg {
+  fill: #ffce45;
+  stroke: #ffce45;
+}
